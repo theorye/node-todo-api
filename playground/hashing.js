@@ -5,10 +5,10 @@ var data = {
   id: 10
 }
 var token = jwt.sign(data, '123abc')
-console.log(token);
+// console.log(token);
 
 var decoded = jwt.verify(token, '123bac');
-console.log('decoded', decoded);
+// console.log('decoded', decoded);
 // jwt.verify
 //
 // var message = 'I am user number 3';
